@@ -1,1 +1,1 @@
-worker: node implade.js
+worker: node zythron.js
