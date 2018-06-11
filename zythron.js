@@ -26,7 +26,7 @@ client.on('message', async msg => {
     } else
 
         if (msg.content === '$info') {
-    	msg.channel.send('**This server was created by BeckenPlayZMCPE on 19th January 2018 and BeckenPlayZMCPE was helped by the two staff MrLukePotatoes and Zadezter in managing the server and it took about 3 months to release the server. This server is a multi-server and if you wonder what multiserver means then it means all in one like factions,minigames,roleplay,kitpvp everything in a single server. If you ever wanted to apply for staff here, go to bit.ly/ZPEApply. Also check out our twitter page @ZythronPE and make sure to follow. If you have any questions regarding the server< make sure to contact @BeckenPlayZMCPE and he will answer you as soon as he can.');
+    	msg.channel.send("**This server was created by BeckenPlayZMCPE on 19th January 2018 and BeckenPlayZMCPE was helped by the two staff MrLukePotatoes and Zadezter in managing the server and it took about 3 months to release the server. This server is a multi-server and if you wonder what multiserver means then it means all in one like factions,minigames,roleplay,kitpvp everything in a single server. If you ever wanted to apply for staff here, go to bit.ly/ZPEApply. Also check out our twitter page @ZythronPE and make sure to follow. If you have any questions regarding the server< make sure to contact @BeckenPlayZMCPE and he will answer you as soon as he can.");
     } else
 
         if (msg.content === '$version') {
