@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => {
-    client.user.setStatus('dnd');
-    client.user.setActivity('play.zythronpe.ml:19132', {type: 'PLAYING'});
+client.on(`ready`, () => {
+    console.log(`${client.user.username} ready!`)
+    client.user.setActivity(`play.zythronpe.ml:19132`, { type: "streaming", url: "https://www.twitch.tv/twitch" });
 });
 
 client.on('message', async msg => {
